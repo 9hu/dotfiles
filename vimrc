@@ -1,4 +1,4 @@
-" slime's vim config
+" slime's vimrc
 " ~/.vimrc
 
 " aesthetics
@@ -15,4 +15,3 @@ set smartindent
 
 " escape key is far away
 imap jj <Esc>
-

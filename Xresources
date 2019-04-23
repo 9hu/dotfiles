@@ -1,0 +1,18 @@
+! slime's Xresources
+! ~/.Xresources
+
+URxvt.font: xft:monospace:size=10
+URxvt.perl-ext: default,url-select,font-size
+
+! yankable links 
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+
+! aesthetic
+URxvt.scrollBar: false
+URxvt.internalBorder: 12
+
+! disable default ctrl+shift behaviour
+URxvt.iso14755: false
+URxvt.iso14755_52: false

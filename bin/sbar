@@ -1,9 +1,8 @@
 #!/bin/bash
 
 # display i3status in dwm's bar
-
 i3status | while :
 do
-    read line
-    xsetroot -name " $line " || exit 1
+	read line
+	xsetroot -name " $line " || exit 1
 done
