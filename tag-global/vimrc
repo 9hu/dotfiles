@@ -1,6 +1,3 @@
-" slime's vimrc
-" ~/.vimrc
-
 " aesthetics
 syntax on
 filetype indent on
