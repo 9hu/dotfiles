@@ -1,0 +1,46 @@
+URxvt.font: xft:dina:pixelsize=14
+URxvt.perl-ext: default,url-select,font-size
+
+! yankable links 
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+
+! aesthetic
+URxvt.scrollBar: false
+URxvt.internalBorder: 12
+
+! disable default ctrl+shift behaviour
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+urxvt.depth: 32
+urxvt.background: [82]#000000
+
+# http://dotshare.it/dots/130/
+*.foreground:           #CAC7B4
+*.cursorColor:          #CAC7B4
+!black
+urxvt*color8:           #656565
+urxvt*color0:           #565656
+!red
+urxvt*color1:           #BF5C5C
+urxvt*color9:           #C94242
+!green
+urxvt*color2:           #CAD4A6
+urxvt*color10:          #92AC47
+!yellow
+urxvt*color3:           #D0D9AD
+urxvt*color11:          #B4C95D
+!blue
+urxvt*color4:           #939CB3
+urxvt*color12:          #647396
+!magenta
+urxvt*color5:           #E4CCE0
+urxvt*color13:          #CDB4C9
+!cyan
+urxvt*color6:           #628B85
+urxvt*color14:          #5A7975
+!white
+urxvt*color7:           #FFFFFF
+urxvt*color15:          #C0C0C0
