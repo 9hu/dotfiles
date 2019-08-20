@@ -1,0 +1,6 @@
+xset b off &
+
+.bin/sbar &
+compton &
+
+exec dwm

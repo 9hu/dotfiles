@@ -1,4 +1,0 @@
-compton &
-.bin/sbar &
-
-exec dwm
